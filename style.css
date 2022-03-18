@@ -1,0 +1,78 @@
+/* Font and colors */
+body{
+  background: #F4FCD9;
+  color: rgb(70, 45, 184);
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1{
+  font-family: 'Fredoka', sans-serif;
+  color: #826aedff;
+  font-weight: lighter;
+  font-size: 48px;
+  letter-spacing: 2px;
+  /* text-align: center; */
+}
+h2 {
+  font-family: 'Fredoka', sans-serif;
+  color: #826aedff;
+  font-weight: lighter;
+  font-size: 24px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+a:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+#banner {
+  background-image: url(../lewagon-landing/images/lalandwpaper-cut.jpg);
+  background-color: darkolivegreen;
+  background-size: cover;
+  padding: 80px 0;
+  text-align: center;
+}
+
+#banner h1 {
+  color: rgb(250, 246, 246);
+}
+
+#banner p {
+  color: rgb(255, 254, 254);
+  font-size: 26px;
+  opacity: 1;
+}
+
+#banner a {
+  font-size: 18px;
+}
+
+.credits {
+  padding: 20px;
+  text-align: center;
+}
+
+#footer {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#footer a {
+  color: grey;
+  font-size: 22px;
+}
+
+#footer #relogio { /*precisei criar um "caminho" */ 
+  font-size: 16px;
+}
+
+#footer a:hover {
+  color: white;
+}
